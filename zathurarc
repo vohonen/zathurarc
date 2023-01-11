@@ -1,0 +1,54 @@
+
+set selection-clipboard clipboard
+
+# more convenient vertical moving
+map u scroll half-down
+map i scroll half-up
+
+# recoloring based on system76 colorscheme
+# template from https://github.com/benbrastmckie/.config/blob/master/zathura/zathurarc 
+# bg -> black
+# fg -> white
+set notification-error-bg       "#242424" # bg
+set notification-error-fg       "#f15d22" # bright:red
+set notification-warning-bg     "#242424" # bg
+set notification-warning-fg     "#eece61" # bright:yellow
+set notification-bg             "#242424" # bg
+set notification-fg             "#6eaa76" # bright:green
+
+set completion-bg               "#242424" # bg2
+set completion-fg               "#d8dee9" # fg
+set completion-group-bg         "#3c3836" # bg1
+set completion-group-fg         "#928374" # gray
+set completion-highlight-bg     "#18a9c7" # bright:blue
+set completion-highlight-fg     "#242424" # bg2
+
+# Define the color in index mode
+set index-bg                    "#242424" # bg2
+set index-fg                    "#d8dee9" # fg
+set index-active-bg             "#7ec589" # bright:blue
+set index-active-fg             "#242424" # bg2
+
+set inputbar-bg                 "#242424" # bg
+set inputbar-fg                 "#d8dee9" # fg
+
+set statusbar-bg                "#242424" # bg2
+set statusbar-fg                "#d8dee9" # fg
+
+# set highlight-color             "#6eaa76" # bright:green
+# set highlight-active-color      "#6eaa76" # bright:green
+set highlight-color 			"#FFFF00" # YELLOW
+set highlight-active-color 		"#FFFF00" # YELLOW
+set highlight-transparency 		.5
+
+set default-bg                  "#1d2021" # bg
+set default-fg                  "#d8dee9" # fg
+set render-loading              true
+set render-loading-bg           "#242424" # bg
+set render-loading-fg           "#d8dee9" # fg
+
+# Recolor book content's color
+# set recolor-darkcolor           "#242424" # bg
+# set recolor-lightcolor          "#d8dee9" # fg
+# set recolor                     "true"
+
