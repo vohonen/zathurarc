@@ -2,8 +2,8 @@
 set selection-clipboard clipboard
 
 # more convenient vertical moving
-map u scroll half-down
-map i scroll half-up
+map d scroll half-down
+map u scroll half-up
 
 # recoloring based on system76 colorscheme
 # template from https://github.com/benbrastmckie/.config/blob/master/zathura/zathurarc 
